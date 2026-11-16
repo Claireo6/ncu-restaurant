@@ -1,0 +1,133 @@
+/* 中大吃什麼 — 全站唯一的樣式表
+ * 規則：顏色、字體、圓角一律用下面的 CSS 變數；分類顏色來自 data/categories.json（以 --c / --cat 傳入）。 */
+:root {
+  --bg: #f7f2e9;
+  --paper: #fffdf8;
+  --ink: #2a221d;
+  --muted: #7a6d63;
+  --line: #e6dccd;
+  --accent: #c8502a;
+  --open: #2f7d4f;
+  --soon: #c0841a;
+  --closed: #9a8f86;
+  --radius: 14px;
+  --shadow: 0 1px 0 rgba(42, 34, 29, .04), 0 6px 18px -8px rgba(42, 34, 29, .18);
+  --font: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+  --font-display: "Noto Serif TC", "Songti TC", "PMingLiU", serif;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.65 var(--font); }
+a { color: inherit; }
+code { font-size: .9em; background: rgba(42,34,29,.06); padding: .1em .35em; border-radius: 4px; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+
+/* ---------- 頂部 ---------- */
+.topbar { display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  max-width: 1080px; margin: 0 auto; padding: 18px 20px; }
+.brand { font: 700 20px/1 var(--font-display); text-decoration: none; letter-spacing: .04em; }
+.brand b { color: var(--accent); }
+.back { font-size: 14px; color: var(--muted); text-decoration: none; }
+.back:hover { color: var(--ink); }
+
+/* ---------- 首頁 hero ---------- */
+.hero { padding: 12px 0 20px; }
+.hero h1 { font: 700 clamp(30px, 5vw, 46px)/1.15 var(--font-display); margin: 0 0 8px; letter-spacing: .02em; }
+.hero h1 em { font-style: normal; color: var(--accent); }
+.hero p { margin: 0; color: var(--muted); max-width: 36em; }
+
+/* ---------- 控制列 ---------- */
+.controls { position: sticky; top: 0; z-index: 500; background: var(--bg);
+  padding: 12px 0; display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center;
+  border-bottom: 1px solid var(--line); }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.tabs button { font: 600 15px/1 var(--font); border: 1.5px solid var(--line); background: var(--paper);
+  color: var(--ink); padding: 9px 14px; border-radius: 999px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.tabs button[aria-selected="true"] { background: var(--c); border-color: var(--c); color: #fff; }
+.tabs .count { font-size: 12px; opacity: .7; font-weight: 500; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chips button { font: 14px/1 var(--font); border: 0; background: transparent; color: var(--muted);
+  padding: 7px 10px; border-radius: 8px; cursor: pointer; }
+.chips button[aria-pressed="true"] { background: rgba(42,34,29,.08); color: var(--ink); font-weight: 600; }
+.toggle { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; color: var(--muted); cursor: pointer; margin-left: auto; }
+.toggle input { accent-color: var(--open); width: 16px; height: 16px; }
+#result-count { font-size: 13px; color: var(--muted); }
+
+/* ---------- 首頁版面：地圖＋卡片 ---------- */
+.layout { display: grid; grid-template-columns: 1fr; gap: 20px; padding: 20px 0 8px; }
+@media (min-width: 900px) {
+  .layout { grid-template-columns: 1fr 400px; align-items: start; }
+  .layout .map { position: sticky; top: 76px; order: 2; }
+}
+.map { width: 100%; height: 320px; border-radius: var(--radius); overflow: hidden;
+  border: 1px solid var(--line); background: #e9e3d8; z-index: 0; }
+@media (min-width: 900px) { .layout .map { height: calc(100vh - 100px); max-height: 640px; } }
+.map-small { height: 260px; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; align-content: start; }
+.card { display: flex; flex-direction: column; gap: 6px; background: var(--paper); border-radius: var(--radius);
+  padding: 16px 16px 14px; text-decoration: none; box-shadow: var(--shadow);
+  border-top: 4px solid var(--c); transition: transform .15s ease, box-shadow .15s ease; }
+.card:hover { transform: translateY(-2px); box-shadow: 0 10px 24px -10px rgba(42,34,29,.3); }
+.card-top { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: var(--muted); }
+.card h3 { margin: 2px 0 0; font: 700 19px/1.35 var(--font-display); }
+.rec { margin: 0; font-size: 14px; }
+.rec span { font-size: 12px; color: var(--c); font-weight: 700; margin-right: 6px; }
+.card-foot { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: auto; padding-top: 8px; font-size: 14px; }
+.card-today { margin: 0; font-size: 12px; color: var(--muted); }
+.empty { grid-column: 1 / -1; text-align: center; color: var(--muted); background: var(--paper);
+  border: 1.5px dashed var(--line); border-radius: var(--radius); padding: 40px 20px; margin: 0; }
+
+/* ---------- 共用小元件 ---------- */
+.pill { display: inline-block; font-size: 12px; font-weight: 700; color: var(--c); background: color-mix(in srgb, var(--c) 12%, transparent);
+  padding: 3px 9px; border-radius: 999px; }
+.status { font-size: 13px; font-weight: 600; color: var(--closed); white-space: nowrap; }
+.status::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: currentColor; margin-right: 6px; vertical-align: 2px; }
+.status[data-state="open"] { color: var(--open); }
+.status[data-state="soon"] { color: var(--soon); }
+.pending { color: var(--muted); font-style: italic; }
+
+/* ---------- 店家頁 ---------- */
+.shop { padding-top: 8px; }
+.shop-head { padding: 8px 0 20px; border-bottom: 2px solid var(--ink); margin-bottom: 24px; }
+.eyebrow { margin: 0 0 6px; color: var(--muted); font-size: 14px; display: flex; gap: 8px; align-items: center; }
+.shop-head h1 { margin: 0; font: 700 clamp(30px, 6vw, 44px)/1.2 var(--font-display); }
+.meta { margin: 10px 0 0; display: flex; gap: 18px; align-items: center; flex-wrap: wrap; font-size: 16px; }
+.address { margin: 6px 0 0; color: var(--muted); font-size: 14px; }
+.shop-grid { display: grid; gap: 24px; }
+@media (min-width: 820px) { .shop-grid { grid-template-columns: 1fr 380px; } .shop-side { position: sticky; top: 20px; align-self: start; } }
+.block { margin-bottom: 26px; }
+.block h2 { font-size: 13px; letter-spacing: .12em; color: var(--muted); margin: 0 0 10px; font-weight: 700; }
+.recommend ul { list-style: none; margin: 0; padding: 0; }
+.recommend li { font: 700 22px/1.4 var(--font-display); padding-left: 1.1em; position: relative; }
+.recommend li::before { content: "★"; color: var(--cat); position: absolute; left: 0; font-size: .75em; top: .25em; }
+.hours { border-collapse: collapse; width: 100%; max-width: 380px; font-variant-numeric: tabular-nums; }
+.hours th, .hours td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); font-weight: 400; }
+.hours th { width: 6em; white-space: nowrap; color: var(--muted); }
+.hours td.closed { color: var(--closed); }
+.hours tr.today { background: color-mix(in srgb, var(--cat) 10%, transparent); }
+.hours tr.today th { color: var(--ink); font-weight: 700; }
+.hours tr.today th::after { content: " 今天"; font-size: 11px; color: var(--cat); }
+.menu { list-style: none; padding: 0; margin: 0; max-width: 420px; }
+.menu li { display: flex; gap: 8px; padding: 4px 0; }
+.menu .dots { flex: 1; border-bottom: 1px dotted var(--line); margin-bottom: 6px; }
+.review { margin: 0; font-size: 17px; }
+.notes { margin: 0; padding-left: 1.2em; }
+.actions { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+.btn { flex: 1; text-align: center; text-decoration: none; font-weight: 600; font-size: 15px; padding: 11px 14px;
+  border-radius: 10px; background: var(--ink); color: #fff; }
+.btn.ghost { background: transparent; color: var(--ink); border: 1.5px solid var(--ink); }
+.btn:hover { opacity: .88; }
+.provenance { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; margin-top: 10px; }
+
+/* ---------- 頁尾 ---------- */
+.footer { color: var(--muted); font-size: 13px; padding-top: 24px; padding-bottom: 40px; }
+
+/* Leaflet 調整 */
+.leaflet-popup-content { font: 14px/1.5 var(--font); }
+.leaflet-popup-content a { color: var(--accent); font-weight: 600; }
+.leaflet-tooltip { font: 600 13px/1.2 var(--font); }
+.recommend li.pending { font: italic 15px/1.6 var(--font); color: var(--muted); padding-left: 0; }
+.recommend li.pending::before { content: none; }
+.address:empty { display: none; }

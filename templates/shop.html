@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- ⚠ 這個檔案由 scripts/build.py 從 templates/shop.html 產生，請勿手動修改。改資料請改 data/shops.json。 -->
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{NAME}}｜中大吃什麼</title>
+  <meta name="description" content="{{NAME}}・{{AREA}}・{{CATEGORY}}">
+  <link rel="stylesheet" href="../assets/vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="page-shop" style="--cat: {{COLOR}}">
+  <header class="topbar">
+    <a class="brand" href="../index.html">中大<b>吃什麼</b></a>
+    <a class="back" href="../index.html#{{CATEGORY_ID}}">← 回{{CATEGORY}}列表</a>
+  </header>
+
+  <main class="wrap shop">
+    <div class="shop-head">
+      <p class="eyebrow"><span class="pill" style="--c: {{COLOR}}">{{CATEGORY}}</span> {{AREA}}</p>
+      <h1>{{NAME}}</h1>
+      <p class="meta"><span class="status" data-status>—</span></p>
+      <p class="address">{{ADDRESS}}</p>
+    </div>
+
+    <div class="shop-grid">
+      <div class="shop-main">
+        <section class="block recommend">
+          <h2>推薦</h2>
+          <ul>{{RECOMMEND}}</ul>
+        </section>
+
+        <section class="block">
+          <h2>營業時間</h2>
+          <table class="hours">
+          {{HOURS_ROWS}}
+          </table>
+        </section>
+
+        {{OPTIONAL_SECTIONS}}
+      </div>
+
+      <aside class="shop-side">
+        <div id="shop-map" class="map map-small" aria-label="{{NAME}} 位置地圖"></div>
+        <div class="actions">
+          <a class="btn" href="{{GMAP_URL}}" target="_blank" rel="noopener">在 Google Maps 開啟</a>
+          <a class="btn ghost" href="{{GMAP_DIR_URL}}" target="_blank" rel="noopener">導航過去</a>
+        </div>
+      </aside>
+    </div>
+
+    <p class="provenance">{{PROVENANCE}}</p>
+  </main>
+
+  <footer class="footer wrap">
+    <p>營業時間可能變動，出發前建議再確認。本站依 <code>CLAUDE.md</code> 規則由 AI 協助維護。</p>
+  </footer>
+
+  <script type="application/json" id="page-data">{{PAGE_DATA}}</script>
+  <script src="../assets/vendor/leaflet/leaflet.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="../assets/js/shop.js"></script>
+</body>
+</html>

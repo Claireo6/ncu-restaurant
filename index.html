@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>中大吃什麼｜國立中央大學周邊美食地圖</title>
+  <meta name="description" content="中央大學後門、宵夜街周邊店家整理：早午餐、午晚餐、點心，含營業時間與地圖。">
+  <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page-index">
+  <header class="topbar">
+    <a class="brand" href="index.html">中大<b>吃什麼</b></a>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>下課了，<em>今天吃什麼？</em></h1>
+      <p>整理中央大學後門、宵夜街一帶的店家。依時段分成早午餐、午晚餐、點心，營業狀態以台灣時間即時顯示。</p>
+    </section>
+
+    <nav class="controls" aria-label="篩選">
+      <div class="tabs" id="tabs" role="tablist"></div>
+      <div class="chips" id="areas"></div>
+      <label class="toggle"><input type="checkbox" id="open-only"> 只看營業中</label>
+      <span id="result-count"></span>
+    </nav>
+
+    <div class="layout">
+      <div id="map" class="map" aria-label="店家地圖"></div>
+      <div id="cards" class="cards"></div>
+    </div>
+  </main>
+
+  <footer class="footer wrap">
+    <p>資料最後更新：<span id="updated">—</span>。營業時間可能變動，出發前建議再確認。<br>
+      本站依 <code>CLAUDE.md</code> 規則由 AI 協助維護；地圖資料 © OpenStreetMap。</p>
+  </footer>
+
+  <script src="assets/vendor/leaflet/leaflet.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+</html>

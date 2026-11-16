@@ -1,0 +1,5 @@
+[
+  { "id": "brunch", "label": "早午餐", "desc": "早餐、早午餐，通常中午前就收", "color": "#d99a1e" },
+  { "id": "meal",   "label": "午晚餐", "desc": "正餐：飯、麵、便當、定食",     "color": "#c8502a" },
+  { "id": "snack",  "label": "點心",   "desc": "飲料、甜點、小吃、宵夜點心",   "color": "#a8507a" }
+]
