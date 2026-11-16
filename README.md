@@ -2,7 +2,7 @@
 
 國立中央大學周邊美食地圖：後門、宵夜街一帶的店家，依時段分成**早午餐／午晚餐／點心**，即時顯示是否營業，並附地圖與 Google Maps 導航。
 
-**網站**：https://<你的帳號>.github.io/ncu-eats/
+**網站**：https://<Claireo6>.github.io/ncu-eats/
 
 ## 這個專案的設計
 
