@@ -3,7 +3,7 @@
 
 ## 網路查詢（2026-11-16）
 <!-- 以下由 AI 依 CLAUDE.md §7.2 查詢後照抄，未改寫 -->
-- 來源：Google 地圖 https://www.google.com/maps/place/%E5%BB%9A%E7%AA%97%20Kitchen%20Bliss/@24.9647839,121.1907579,17z/data=!3m1!4b1!4m6!3m5!1s0x34682394d38560b3:0x241daa7905e92149!8m2!3d24.9647839!4d121.1907579
+- 來源：Google 地圖 https://www.google.com/maps/search/?api=1&query=%E5%BB%9A%E7%AA%97%20Kitchen%20Bliss%20324%E6%A1%83%E5%9C%92%E5%B8%82%E5%B9%B3%E9%8E%AE%E5%8D%80%E9%9B%99%E9%80%A3%E9%87%8C%E4%B8%AD%E5%A4%AE%E8%B7%AF157%E8%99%9F
 - Google 地圖店名：廚窗 Kitchen Bliss
 - 地址：324桃園市平鎮區雙連里中央路157號
 - 座標：24.9647839, 121.1907579

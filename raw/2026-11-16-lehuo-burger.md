@@ -5,7 +5,7 @@
 
 ## 網路查詢（2026-11-16）
 <!-- 以下由 AI 依 CLAUDE.md §7.2 查詢後照抄，未改寫 -->
-- 來源：Google 地圖 https://www.google.com/maps/place/%E6%A8%82%E6%B4%BB%E5%A0%A1%20-%20%E4%B8%AD%E5%A4%AE%E5%BA%97/@24.9643478,121.1908059,17z/data=!3m1!4b1!4m6!3m5!1s0x34682394d73295bf:0x795b8a8aea285818!8m2!3d24.9643478!4d121.1908059
+- 來源：Google 地圖 https://www.google.com/maps/search/?api=1&query=%E6%A8%82%E6%B4%BB%E5%A0%A1%20-%20%E4%B8%AD%E5%A4%AE%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E4%B8%AD%E5%A4%AE%E8%B7%AF208%E8%99%9F
 - Google 地圖店名：樂活堡 - 中央店
 - 地址：桃園市中壢區中央路208號
 - 座標：24.9643478, 121.1908059

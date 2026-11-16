@@ -3,7 +3,7 @@
 
 ## 網路查詢（2026-11-16）
 <!-- 以下由 AI 依 CLAUDE.md §7.2 查詢後照抄，未改寫 -->
-- 來源：Google 地圖 https://www.google.com/maps/place/%E8%90%8A%E5%AE%A2%E5%A0%A1%E6%97%A9%E5%8D%88%E9%A4%90/@24.9641913,121.1904931,17z/data=!3m1!4b1!4m6!3m5!1s0x34682394da574bed:0x997d1136fc3d1c9d!8m2!3d24.9641913!4d121.1904931
+- 來源：Google 地圖 https://www.google.com/maps/search/?api=1&query=%E8%90%8A%E5%AE%A2%E5%A0%A1%E6%97%A9%E5%8D%88%E9%A4%90%20320%E6%A1%83%E5%9C%92%E5%B8%82%E5%B9%B3%E9%8E%AE%E5%8D%80%E9%9B%99%E9%80%A3%E9%87%8C%E4%B8%AD%E5%A4%AE%E8%B7%AF135%E8%99%9F
 - Google 地圖店名：萊客堡早午餐
 - 地址：320桃園市平鎮區雙連里中央路135號
 - 座標：24.9641913, 121.1904931

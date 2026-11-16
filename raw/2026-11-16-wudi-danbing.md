@@ -5,7 +5,7 @@
 
 ## 網路查詢（2026-11-16）
 <!-- 以下由 AI 依 CLAUDE.md §7.2 查詢後照抄，未改寫 -->
-- 來源：Google 地圖 https://www.google.com/maps/place/%E7%84%A1%E6%95%B5%E8%9B%8B%E9%A4%85/@24.9642194,121.1930285,17z/data=!3m1!4b1!4m6!3m5!1s0x346823eaa21ff61f:0x55fea735256200dc!8m2!3d24.9642194!4d121.1930285
+- 來源：Google 地圖 https://www.google.com/maps/search/?api=1&query=%E7%84%A1%E6%95%B5%E8%9B%8B%E9%A4%85%20%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E4%BA%94%E8%88%88%E8%B7%AF331%E5%B7%B752%E8%99%9F
 - Google 地圖店名：無敵蛋餅
 - 地址：桃園市中壢區五興路331巷52號
 - 座標：24.9642194, 121.1930285

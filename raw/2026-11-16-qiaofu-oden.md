@@ -3,7 +3,7 @@
 
 ## 網路查詢（2026-11-16）
 <!-- 以下由 AI 依 CLAUDE.md §7.2 查詢後照抄，未改寫 -->
-- 來源：Google 地圖 https://www.google.com/maps/place/%E6%A8%B5%E5%A4%AB%E9%97%9C%E6%9D%B1%E7%85%AE/@24.9649125,121.1937382,17z/data=!3m1!4b1!4m6!3m5!1s0x346823f8d1a41a07:0xd9a3b227711b5185!8m2!3d24.9649125!4d121.1937382
+- 來源：Google 地圖 https://www.google.com/maps/search/?api=1&query=%E6%A8%B5%E5%A4%AB%E9%97%9C%E6%9D%B1%E7%85%AE%20320%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E4%BA%94%E6%AC%8A%E9%87%8C%E4%BA%94%E8%88%88%E8%B7%AF390%E8%99%9F
 - Google 地圖店名：樵夫關東煮
 - 地址：320桃園市中壢區五權里五興路390號
 - 座標：24.9649125, 121.1937382

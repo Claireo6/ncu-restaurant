@@ -3,7 +3,7 @@
 
 ## 網路查詢（2026-11-16）
 <!-- 以下由 AI 依 CLAUDE.md §7.2 查詢後照抄，未改寫 -->
-- 來源：Google 地圖 https://www.google.com/maps/place/%E9%BA%A5%E5%A0%A1%E5%A0%A1%E6%97%A9%E9%BB%9E/@24.9649328,121.1908288,17z/data=!3m1!4b1!4m6!3m5!1s0x346823eb2b108469:0x9bb9aaf95f7206a8!8m2!3d24.9649328!4d121.1908288
+- 來源：Google 地圖 https://www.google.com/maps/search/?api=1&query=%E9%BA%A5%E5%A0%A1%E5%A0%A1%E6%97%A9%E9%BB%9E%20324%E6%A1%83%E5%9C%92%E5%B8%82%E5%B9%B3%E9%8E%AE%E5%8D%80%E9%9B%99%E9%80%A3%E9%87%8C%E4%B8%AD%E5%A4%AE%E8%B7%AF163%E8%99%9F
 - Google 地圖店名：麥堡堡早點
 - 地址：324桃園市平鎮區雙連里中央路163號
 - 座標：24.9649328, 121.1908288

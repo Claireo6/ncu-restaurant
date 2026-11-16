@@ -5,7 +5,7 @@
 
 ## 網路查詢（2026-11-16）
 <!-- 以下由 AI 依 CLAUDE.md §7.2 查詢後照抄，未改寫 -->
-- 來源：Google 地圖 https://www.google.com/maps/place/%E7%94%B7%E5%AD%90%E6%BC%A2%E7%94%9F%E9%AE%AE%E7%82%B8%E9%9B%9E-%E4%B8%AD%E5%A4%AE%E5%A4%A7%E5%AD%B8%E5%BA%97/@24.965153,121.1937127,17z/data=!3m1!4b1!4m6!3m5!1s0x346823401dcad4b7:0xb8c6d77bfa3b8f20!8m2!3d24.965153!4d121.1937127
+- 來源：Google 地圖 https://www.google.com/maps/search/?api=1&query=%E7%94%B7%E5%AD%90%E6%BC%A2%E7%94%9F%E9%AE%AE%E7%82%B8%E9%9B%9E-%E4%B8%AD%E5%A4%AE%E5%A4%A7%E5%AD%B8%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E4%BA%94%E8%88%88%E8%B7%AF400%E8%99%9F
 - Google 地圖店名：男子漢生鮮炸雞-中央大學店
 - 地址：桃園市中壢區五興路400號
 - 座標：24.965153, 121.1937127

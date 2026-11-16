@@ -3,7 +3,7 @@
 
 ## 網路查詢（2026-11-16）
 <!-- 以下由 AI 依 CLAUDE.md §7.2 查詢後照抄，未改寫 -->
-- 來源：Google 地圖 https://www.google.com/maps/place/%E7%86%8A%E5%B1%8B%E6%8B%89%E9%BA%B5/@24.9641023,121.1904416,17z/data=!3m1!4b1!4m6!3m5!1s0x34683b4b33ec73d1:0x91fc8df1d29e9e18!8m2!3d24.9641023!4d121.1904416
+- 來源：Google 地圖 https://www.google.com/maps/search/?api=1&query=%E7%86%8A%E5%B1%8B%E6%8B%89%E9%BA%B5%20324%E6%A1%83%E5%9C%92%E5%B8%82%E5%B9%B3%E9%8E%AE%E5%8D%80%E4%BA%94%E6%AC%8A%E9%87%8C%E4%B8%AD%E5%A4%AE%E8%B7%AF131-1%E8%99%9F
 - Google 地圖店名：熊屋拉麵
 - 地址：324桃園市平鎮區五權里中央路131-1號
 - 座標：24.9641023, 121.1904416

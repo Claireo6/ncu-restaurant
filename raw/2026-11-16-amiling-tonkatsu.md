@@ -3,7 +3,7 @@
 
 ## 網路查詢（2026-11-16）
 <!-- 以下由 AI 依 CLAUDE.md §7.2 查詢後照抄，未改寫 -->
-- 來源：Google 地圖 https://www.google.com/maps/place/%E9%98%BF%E7%B1%B3%E7%8E%B2%E9%A3%9F%E5%A0%82-%E6%97%A5%E5%BC%8F%E8%B1%AC%E6%8E%92%E5%B0%88%E8%B3%A3-/@24.9644555,121.1908401,17z/data=!3m1!4b1!4m6!3m5!1s0x34682394d6ec149d:0x658200192222aaab!8m2!3d24.9644555!4d121.1908401
+- 來源：Google 地圖 https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E7%B1%B3%E7%8E%B2%E9%A3%9F%E5%A0%82-%E6%97%A5%E5%BC%8F%E8%B1%AC%E6%8E%92%E5%B0%88%E8%B3%A3-%20320%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E4%BA%94%E6%AC%8A%E9%87%8C%E4%B8%AD%E5%A4%AE%E8%B7%AF212%E8%99%9F
 - Google 地圖店名：阿米玲食堂-日式豬排專賣-
 - 地址：320桃園市中壢區五權里中央路212號
 - 座標：24.9644555, 121.1908401

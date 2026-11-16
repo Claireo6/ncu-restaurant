@@ -3,7 +3,7 @@
 
 ## 網路查詢（2026-11-16）
 <!-- 以下由 AI 依 CLAUDE.md §7.2 查詢後照抄，未改寫 -->
-- 來源：Google 地圖 https://www.google.com/maps/place/%E5%A4%A7%E5%97%91%E4%B8%AD%E5%A4%AE%E5%A4%A7%E5%AD%B8%28%E8%94%AC%E8%8F%9C%E8%9B%8B%E9%A4%85%E5%B0%88%E8%B3%A3%E5%BA%97%29/@24.9648033,121.1908274,17z/data=!3m1!4b1!4m6!3m5!1s0x34682336cbe47375:0xfd04267b6e672cab!8m2!3d24.9648033!4d121.1908274
+- 來源：Google 地圖 https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%97%91%E4%B8%AD%E5%A4%AE%E5%A4%A7%E5%AD%B8%28%E8%94%AC%E8%8F%9C%E8%9B%8B%E9%A4%85%E5%B0%88%E8%B3%A3%E5%BA%97%29%20324%E6%A1%83%E5%9C%92%E5%B8%82%E5%B9%B3%E9%8E%AE%E5%8D%80%E4%BA%94%E6%AC%8A%E9%87%8C%E4%B8%AD%E5%A4%AE%E8%B7%AF159%E8%99%9F
 - Google 地圖店名：大嗑中央大學(蔬菜蛋餅專賣店)
 - 地址：324桃園市平鎮區五權里中央路159號
 - 座標：24.9648033, 121.1908274

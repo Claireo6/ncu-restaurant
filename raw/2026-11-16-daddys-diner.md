@@ -3,7 +3,7 @@ Daddy's 美式餐廳｜後門｜推薦：無
 
 ## 網路查詢（2026-11-16）
 <!-- 以下由 AI 依 CLAUDE.md §7.2 查詢後照抄，未改寫 -->
-- 來源：Google 地圖 https://www.google.com/maps/place/Daddy%27s%E7%BE%8E%E5%BC%8F%E9%A4%90%E5%BB%B3/@24.9637413,121.1907578,17z/data=!3m1!4b1!4m6!3m5!1s0x346823951de7e193:0xf4ffd75d9f10fd9b!8m2!3d24.9637413!4d121.1907578
+- 來源：Google 地圖 https://www.google.com/maps/search/?api=1&query=Daddy%27s%E7%BE%8E%E5%BC%8F%E9%A4%90%E5%BB%B3%20320%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E4%BA%94%E6%AC%8A%E9%87%8C%E4%B8%AD%E5%A4%AE%E8%B7%AF170%E8%99%9F
 - Google 地圖店名：Daddy's美式餐廳
 - 地址：320桃園市中壢區五權里中央路170號
 - 座標：24.9637413, 121.1907578

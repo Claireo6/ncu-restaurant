@@ -3,7 +3,7 @@
 
 ## 網路查詢（2026-11-16）
 <!-- 以下由 AI 依 CLAUDE.md §7.2 查詢後照抄，未改寫 -->
-- 來源：Google 地圖 https://www.google.com/maps/place/%E5%81%A5%E5%BA%B7%E9%B9%BD%E6%B0%B4%E9%9B%9E/@24.965211,121.190734,17z/data=!3m1!4b1!4m6!3m5!1s0x3468238fafa90275:0xd7130e69a1d89cff!8m2!3d24.965211!4d121.190734
+- 來源：Google 地圖 https://www.google.com/maps/search/?api=1&query=%E5%81%A5%E5%BA%B7%E9%B9%BD%E6%B0%B4%E9%9B%9E%20324%E6%A1%83%E5%9C%92%E5%B8%82%E5%B9%B3%E9%8E%AE%E5%8D%80%E9%9B%99%E9%80%A3%E9%87%8C%E4%B8%AD%E5%A4%AE%E8%B7%AF171%E8%99%9F
 - Google 地圖店名：健康鹽水雞
 - 地址：324桃園市平鎮區雙連里中央路171號
 - 座標：24.965211, 121.190734

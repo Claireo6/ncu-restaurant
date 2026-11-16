@@ -5,7 +5,7 @@
 
 ## 網路查詢（2026-11-16）
 <!-- 以下由 AI 依 CLAUDE.md §7.2 查詢後照抄，未改寫 -->
-- 來源：Google 地圖 https://www.google.com/maps/place/%E6%9D%B1%E6%9D%B1%E7%94%9F%E9%AE%AE%E6%89%8B%E5%B7%A5%E5%A4%A7%E6%B0%B4%E9%A4%83/@24.9650449,121.1935075,17z/data=!3m1!4b1!4m6!3m5!1s0x346823eaa5c2d83d:0x86c79cf99f6947c9!8m2!3d24.9650449!4d121.1935075
+- 來源：Google 地圖 https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E6%9D%B1%E7%94%9F%E9%AE%AE%E6%89%8B%E5%B7%A5%E5%A4%A7%E6%B0%B4%E9%A4%83%20%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E4%BA%94%E8%88%88%E8%B7%AF
 - Google 地圖店名：東東生鮮手工大水餃
 - 地址：桃園市中壢區五興路
 - 座標：24.9650449, 121.1935075

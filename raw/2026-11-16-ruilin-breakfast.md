@@ -3,7 +3,7 @@
 
 ## 網路查詢（2026-11-16）
 <!-- 以下由 AI 依 CLAUDE.md §7.2 查詢後照抄，未改寫 -->
-- 來源：Google 地圖 https://www.google.com/maps/place/%E7%91%9E%E9%BA%9F%E7%BE%8E%E8%80%8C%E7%BE%8E/@24.9645763,121.193414,17z/data=!3m1!4b1!4m6!3m5!1s0x346823eaae7e2a9d:0xdb94d7d4cd032c72!8m2!3d24.9645763!4d121.193414
+- 來源：Google 地圖 https://www.google.com/maps/search/?api=1&query=%E7%91%9E%E9%BA%9F%E7%BE%8E%E8%80%8C%E7%BE%8E%20320%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E4%BA%94%E6%AC%8A%E9%87%8C%E4%BA%94%E8%88%88%E8%B7%AF331%E5%B7%B73%E8%99%9F
 - Google 地圖店名：瑞麟美而美
 - 地址：320桃園市中壢區五權里五興路331巷3號
 - 座標：24.9645763, 121.193414

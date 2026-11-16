@@ -3,7 +3,7 @@
 
 ## 網路查詢（2026-11-16）
 <!-- 以下由 AI 依 CLAUDE.md §7.2 查詢後照抄，未改寫 -->
-- 來源：Google 地圖 https://www.google.com/maps/place/%E5%8E%9A%E8%87%89%E7%9A%AE%E7%B2%89%E6%BC%BF%E8%9B%8B%E9%A4%85/@24.9647281,121.1935792,17z/data=!3m1!4b1!4m6!3m5!1s0x346823f259940abf:0xd5f39985c2e2f8ee!8m2!3d24.9647281!4d121.1935792
+- 來源：Google 地圖 https://www.google.com/maps/search/?api=1&query=%E5%8E%9A%E8%87%89%E7%9A%AE%E7%B2%89%E6%BC%BF%E8%9B%8B%E9%A4%85%20320%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E4%BA%94%E6%AC%8A%E9%87%8C%E4%BA%94%E8%88%88%E8%B7%AF329%E4%B9%8B1%E8%99%9F
 - Google 地圖店名：厚臉皮粉漿蛋餅
 - 地址：320桃園市中壢區五權里五興路329之1號
 - 座標：24.9647281, 121.1935792
