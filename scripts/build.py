@@ -14,6 +14,7 @@ import html
 import json
 import re
 import sys
+from urllib.parse import parse_qs, quote, urlparse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -172,6 +173,14 @@ def optional_sections(s):
     return "\n      ".join(parts)
 
 
+def gmap_dir_url(s):
+    """導航連結：有 web_ref 就用同樣的「店名 地址」當目的地（Google 會顯示店名），否則用座標。"""
+    url = (s.get("web_ref") or {}).get("url", "")
+    q = parse_qs(urlparse(url).query).get("query", [None])[0]
+    dest = q or f"{s['lat']},{s['lng']}"
+    return "https://www.google.com/maps/dir/?api=1&destination=" + quote(dest)
+
+
 def provenance(s):
     ref = s.get("web_ref")
     base = f'資料確認日期 {esc(s["verified"])}・<a href="../{esc(s["source"])}">原始筆記</a>'
@@ -200,7 +209,7 @@ def render(s, tpl, cats, areas):
         "GMAP_URL": esc((s.get("web_ref") or {}).get("url") if "google.com/maps" in (s.get("web_ref") or {}).get("url", "")
                         else f"https://www.google.com/maps/search/?api=1&query={s['lat']},{s['lng']}"),
         "PROVENANCE": provenance(s),
-        "GMAP_DIR_URL": esc(f"https://www.google.com/maps/dir/?api=1&destination={s['lat']},{s['lng']}"),
+        "GMAP_DIR_URL": esc(gmap_dir_url(s)),
         "SOURCE": esc(s["source"]),
         "VERIFIED": esc(s["verified"]),
         "PAGE_DATA": page_data,
