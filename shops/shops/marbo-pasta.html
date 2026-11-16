@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- ⚠ 這個檔案由 scripts/build.py 從 templates/shop.html 產生，請勿手動修改。改資料請改 data/shops.json。 -->
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>馬爾波 Marbo｜中大吃什麼</title>
+  <meta name="description" content="馬爾波 Marbo・後門・午晚餐">
+  <link rel="stylesheet" href="../assets/vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="page-shop" style="--cat: #c8502a">
+  <header class="topbar">
+    <a class="brand" href="../index.html">中大<b>吃什麼</b></a>
+    <a class="back" href="../index.html#meal">← 回午晚餐列表</a>
+  </header>
+
+  <main class="wrap shop">
+    <div class="shop-head">
+      <p class="eyebrow"><span class="pill" style="--c: #c8502a">午晚餐</span> 後門</p>
+      <h1>馬爾波 Marbo</h1>
+      <p class="meta"><span class="status" data-status>—</span></p>
+      <p class="address">中央路216巷68號</p>
+    </div>
+
+    <div class="shop-grid">
+      <div class="shop-main">
+        <section class="block recommend">
+          <h2>推薦</h2>
+          <ul><li class="pending">還沒有推薦</li></ul>
+        </section>
+
+        <section class="block">
+          <h2>營業時間</h2>
+          <table class="hours">
+          <tr data-day="mon"><th>週一</th><td>11:30–20:00</td></tr>
+          <tr data-day="tue"><th>週二</th><td>16:30–20:00</td></tr>
+          <tr data-day="wed"><th>週三</th><td>11:30–20:00</td></tr>
+          <tr data-day="thu"><th>週四</th><td>11:30–20:00</td></tr>
+          <tr data-day="fri"><th>週五</th><td>11:30–20:00</td></tr>
+          <tr data-day="sat"><th>週六</th><td>11:30–20:00</td></tr>
+          <tr data-day="sun"><th>週日</th><td>11:30–20:00</td></tr>
+          </table>
+        </section>
+
+        <section class="block">
+        <h2>備註</h2>
+        <ul class="notes"><li>Google 地圖上店家註明：營業時間以臉書專頁為準</li></ul>
+      </section>
+      </div>
+
+      <aside class="shop-side">
+        <div id="shop-map" class="map map-small" aria-label="馬爾波 Marbo 位置地圖"></div>
+        <div class="actions">
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=%E9%A6%AC%E7%88%BE%E6%B3%A2%20Marbo%20/%20%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5%20/%20%E6%89%8B%E5%B7%A5%20Pizza%E7%87%9F%E6%A5%AD%E6%99%82%E9%96%93%E4%BB%A5%E8%87%89%E6%9B%B8%E5%B0%88%E9%A0%81%E7%82%BA%E6%BA%96%20320%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E4%BA%94%E6%AC%8A%E9%87%8C%E4%B8%AD%E5%A4%AE%E8%B7%AF216%E5%B7%B768%E8%99%9F" target="_blank" rel="noopener">在 Google Maps 開啟</a>
+          <a class="btn ghost" href="https://www.google.com/maps/dir/?api=1&amp;destination=%E9%A6%AC%E7%88%BE%E6%B3%A2%20Marbo%20/%20%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5%20/%20%E6%89%8B%E5%B7%A5%20Pizza%E7%87%9F%E6%A5%AD%E6%99%82%E9%96%93%E4%BB%A5%E8%87%89%E6%9B%B8%E5%B0%88%E9%A0%81%E7%82%BA%E6%BA%96%20320%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E4%BA%94%E6%AC%8A%E9%87%8C%E4%B8%AD%E5%A4%AE%E8%B7%AF216%E5%B7%B768%E8%99%9F" target="_blank" rel="noopener">導航過去</a>
+        </div>
+      </aside>
+    </div>
+
+    <p class="provenance">資料確認日期 2026-11-16・<a href="../raw/2026-11-16-marbo-pasta.md">原始筆記</a>・營業時間等資訊查自 <a href="https://www.google.com/maps/search/?api=1&amp;query=%E9%A6%AC%E7%88%BE%E6%B3%A2%20Marbo%20/%20%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5%20/%20%E6%89%8B%E5%B7%A5%20Pizza%E7%87%9F%E6%A5%AD%E6%99%82%E9%96%93%E4%BB%A5%E8%87%89%E6%9B%B8%E5%B0%88%E9%A0%81%E7%82%BA%E6%BA%96%20320%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E4%BA%94%E6%AC%8A%E9%87%8C%E4%B8%AD%E5%A4%AE%E8%B7%AF216%E5%B7%B768%E8%99%9F" target="_blank" rel="noopener">Google 地圖</a></p>
+  </main>
+
+  <footer class="footer wrap">
+    <p>營業時間可能變動，出發前建議再確認。本站依 <code>CLAUDE.md</code> 規則由 AI 協助維護。</p>
+  </footer>
+
+  <script type="application/json" id="page-data">{"id": "marbo-pasta", "name": "馬爾波 Marbo", "lat": 24.9642061, "lng": 121.1923373, "hours": {"mon": ["11:30-20:00"], "tue": ["16:30-20:00"], "wed": ["11:30-20:00"], "thu": ["11:30-20:00"], "fri": ["11:30-20:00"], "sat": ["11:30-20:00"], "sun": ["11:30-20:00"]}, "color": "#c8502a"}</script>
+  <script src="../assets/vendor/leaflet/leaflet.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="../assets/js/shop.js"></script>
+</body>
+</html>
