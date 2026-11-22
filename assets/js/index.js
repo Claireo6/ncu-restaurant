@@ -12,6 +12,7 @@
   }
 
   const catById = Object.fromEntries(categories.map((c) => [c.id, c]));
+  const icon = (c) => (c && c.icon ? `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true">${c.icon}</svg>` : "");
   const areaById = Object.fromEntries(areas.map((a) => [a.id, a]));
   const state = {
     cat: categories.some((c) => c.id === location.hash.slice(1)) ? location.hash.slice(1) : "all",
@@ -43,7 +44,7 @@
     const count = (id) => shops.filter((s) => id === "all" || s.category === id).length;
     tabs.innerHTML = [{ id: "all", label: "全部", color: "var(--ink)" }, ...categories]
       .map((c) => `<button role="tab" data-cat="${c.id}" aria-selected="${state.cat === c.id}" style="--c:${c.color}">
-          ${c.label}<span class="count">${count(c.id)}</span></button>`).join("");
+          ${icon(c)}${c.label}<span class="count">${count(c.id)}</span></button>`).join("");
   }
   function renderChips() {
     chips.innerHTML = [{ id: "all", label: "全部區域" }, ...areas]
@@ -67,7 +68,7 @@
     const c = catById[s.category];
     const rec = (s.recommend || [])[0];
     return `<a class="card" href="shops/${s.id}.html" style="--c:${c.color}" data-id="${s.id}">
-      <div class="card-top"><span class="pill" style="--c:${c.color}">${c.label}</span><span class="area">${areaById[s.area].label}</span></div>
+      <div class="card-top"><span class="pill" style="--c:${c.color}">${icon(c)}${c.label}</span><span class="area">${areaById[s.area].label}</span></div>
       <h3>${s.name}</h3>
       ${rec ? `<p class="rec"><span>推薦</span>${rec}</p>` : ""}
       <div class="card-foot">
