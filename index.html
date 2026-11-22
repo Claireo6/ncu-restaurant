@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>中大吃什麼｜國立中央大學周邊美食地圖</title>
   <meta name="description" content="中央大學後門、宵夜街周邊店家整理：早午餐、午晚餐、點心，含營業時間與地圖。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@700;800;900&display=swap">
   <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -15,8 +18,55 @@
 
   <main class="wrap">
     <section class="hero">
-      <h1>下課了，<em>今天吃什麼？</em></h1>
-      <p>整理中央大學後門、宵夜街一帶的店家。依時段分成早午餐、午晚餐、點心，營業狀態以台灣時間即時顯示。</p>
+      <div>
+        <p class="kicker">中央大學周邊美食地圖</p>
+        <h1>下課了，<em>今天吃什麼？</em></h1>
+        <p>整理中央大學後門、宵夜街一帶的店家。依時段分成早午餐、午晚餐、點心，營業狀態以台灣時間即時顯示。</p>
+      </div>
+      <svg class="hero-art" viewBox="0 0 420 320" role="img" aria-label="插畫：一碗熱騰騰的麵、荷包蛋吐司和珍珠奶茶">
+        <circle cx="215" cy="160" r="138" fill="#ffc21a" stroke="#1f3a2a" stroke-width="4"/>
+        <g stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".75">
+          <path d="M120 70 l-14 -14"/><path d="M310 62 l14 -14"/><path d="M350 160 h20"/>
+        </g>
+        <!-- 蒸氣 -->
+        <g fill="none" stroke="#1f3a2a" stroke-width="4" stroke-linecap="round" class="bob2">
+          <path d="M180 92 c-12 -14 12 -22 0 -38"/><path d="M215 86 c-12 -14 12 -22 0 -38"/><path d="M250 92 c-12 -14 12 -22 0 -38"/>
+        </g>
+        <!-- 筷子 -->
+        <g stroke="#1f3a2a" stroke-width="4" stroke-linecap="round">
+          <path d="M262 70 L318 156" fill="none"/><path d="M286 62 L330 150" fill="none"/>
+        </g>
+        <g class="bob">
+          <!-- 麵碗 -->
+          <path d="M108 150 h214 a107 92 0 0 1 -214 0 z" fill="#ff5b3a" stroke="#1f3a2a" stroke-width="4" stroke-linejoin="round"/>
+          <path d="M132 186 q83 26 166 0" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+          <path d="M116 150 c18 -34 50 -44 99 -44 s81 10 99 44 z" fill="#fff3cf" stroke="#1f3a2a" stroke-width="4" stroke-linejoin="round"/>
+          <g fill="none" stroke="#f2a100" stroke-width="4" stroke-linecap="round">
+            <path d="M140 140 q20 -18 40 0 t40 0 t40 0 t40 0"/><path d="M152 128 q18 -14 36 0 t36 0 t36 0 t36 0"/>
+          </g>
+          <circle cx="182" cy="122" r="15" fill="#fff" stroke="#1f3a2a" stroke-width="3.5"/><circle cx="182" cy="122" r="7" fill="#ffc21a"/>
+          <path d="M232 112 l26 4 l-4 18 l-26 -4 z" fill="#14a050" stroke="#1f3a2a" stroke-width="3.5" stroke-linejoin="round"/>
+          <path d="M175 238 h80" stroke="#1f3a2a" stroke-width="5" stroke-linecap="round"/>
+        </g>
+        <!-- 荷包蛋吐司 -->
+        <g class="bob2" transform="rotate(-10 72 236)">
+          <path d="M28 214 a26 26 0 0 1 26 -26 h40 a26 26 0 0 1 26 26 c0 8 -5 13 -10 16 v46 h-72 v-46 c-5 -3 -10 -8 -10 -16 z" fill="#ffd27a" stroke="#1f3a2a" stroke-width="4" stroke-linejoin="round"/>
+          <ellipse cx="74" cy="238" rx="24" ry="18" fill="#fff" stroke="#1f3a2a" stroke-width="3.5"/><circle cx="74" cy="238" r="9" fill="#ff9f1c"/>
+        </g>
+        <!-- 珍珠奶茶 -->
+        <g class="bob" transform="rotate(8 360 250)">
+          <path d="M330 222 h64 l-8 86 h-48 z" fill="#c98a4b"/>
+          <path d="M326 192 h72 l-10 116 h-52 z" fill="none" stroke="#1f3a2a" stroke-width="4" stroke-linejoin="round"/>
+          <g fill="#1f3a2a"><circle cx="350" cy="292" r="6"/><circle cx="370" cy="296" r="6"/><circle cx="362" cy="278" r="6"/><circle cx="378" cy="282" r="6"/></g>
+          <path d="M366 192 l14 -40" stroke="#ff4d6d" stroke-width="7" stroke-linecap="round"/>
+          <path d="M320 192 h84" stroke="#1f3a2a" stroke-width="6" stroke-linecap="round"/>
+        </g>
+        <!-- 地圖圖釘 -->
+        <g transform="translate(70 56)">
+          <path d="M22 0 a22 22 0 0 1 22 22 c0 18 -22 40 -22 40 s-22 -22 -22 -40 a22 22 0 0 1 22 -22 z" fill="#38b6ff" stroke="#1f3a2a" stroke-width="4" stroke-linejoin="round"/>
+          <circle cx="22" cy="22" r="8" fill="#fff" stroke="#1f3a2a" stroke-width="3"/>
+        </g>
+      </svg>
     </section>
 
     <nav class="controls" aria-label="篩選">
@@ -32,10 +82,10 @@
     </div>
   </main>
 
-  <footer class="footer wrap">
+  <footer class="footer"><div class="wrap">
     <p>資料最後更新：<span id="updated">—</span>。營業時間可能變動，出發前建議再確認。<br>
       本站依 <code>CLAUDE.md</code> 規則由 AI 協助維護；地圖資料 © OpenStreetMap。</p>
-  </footer>
+  </div></footer>
 
   <script src="assets/vendor/leaflet/leaflet.js"></script>
   <script src="assets/js/common.js"></script>
