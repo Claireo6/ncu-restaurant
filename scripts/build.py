@@ -201,6 +201,7 @@ def render(s, tpl, cats, areas):
         "CATEGORY_ID": esc(s["category"]),
         "CATEGORY": esc(c["label"]),
         "COLOR": esc(c["color"]),
+        "ICON": c.get("icon", ""),  # 分類圖示 SVG（來自 categories.json）
         "AREA": esc(areas[s["area"]]["label"]),
         "RECOMMEND": rec_html,
         "HOURS_ROWS": hours_rows(s.get("hours")),
